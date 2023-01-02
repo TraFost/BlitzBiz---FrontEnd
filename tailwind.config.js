@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        'custom': 'repeat(auto-fit, minmax(325px, 1fr))'
+      },
       spacing: {
         '12.5': '3.125rem',
         '13': '3.25rem',
