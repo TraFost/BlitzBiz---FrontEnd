@@ -2657,6 +2657,14 @@ html {
   height: 100%;
 }
 
+.h-2\/4 {
+  height: 50%;
+}
+
+.h-auto {
+  height: auto;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -2687,6 +2695,14 @@ html {
 
 .w-3 {
   width: 0.75rem;
+}
+
+.w-2\/4 {
+  width: 50%;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .max-w-md {
@@ -3324,6 +3340,10 @@ html {
 
   .lg\:h-52 {
     height: 13rem;
+  }
+
+  .lg\:w-\[500px\] {
+    width: 500px;
   }
 
   .lg\:grid-cols-3 {
